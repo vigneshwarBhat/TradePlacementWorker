@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradePlacementAPI", "..\TradePlacementAPI\TradePlacementAPI.csproj", "{E2E2DC4A-1FAE-4899-A5BC-68A2194356FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Cluster.Infra", "..\Akka.Cluster.Infra\Akka.Cluster.Infra.csproj", "{C4FF0A69-D52C-4A20-8F67-FDF236DDDBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartProcessor-1", "..\CartProcessor\CartProcessor-1.csproj", "{F68E70A9-4BD9-441F-BCBC-233AD25500C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartProcessor-2", "..\CartProcessor-2\CartProcessor-2.csproj", "{A80C6FE6-7DE4-40C7-A3A4-08271225C8D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartItemProcessor-1", "..\CartItemProcessor-1\CartItemProcessor-1.csproj", "{5F34F162-BBFB-4263-9568-094DB0DD9490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartItemProcessor-2", "..\CartItemProcessor-2\CartItemProcessor-2.csproj", "{383D5D1C-6290-400B-88CB-3A76EDA6E9E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2E2DC4A-1FAE-4899-A5BC-68A2194356FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E2DC4A-1FAE-4899-A5BC-68A2194356FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E2DC4A-1FAE-4899-A5BC-68A2194356FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E2DC4A-1FAE-4899-A5BC-68A2194356FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FF0A69-D52C-4A20-8F67-FDF236DDDBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FF0A69-D52C-4A20-8F67-FDF236DDDBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FF0A69-D52C-4A20-8F67-FDF236DDDBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FF0A69-D52C-4A20-8F67-FDF236DDDBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68E70A9-4BD9-441F-BCBC-233AD25500C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68E70A9-4BD9-441F-BCBC-233AD25500C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68E70A9-4BD9-441F-BCBC-233AD25500C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68E70A9-4BD9-441F-BCBC-233AD25500C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80C6FE6-7DE4-40C7-A3A4-08271225C8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80C6FE6-7DE4-40C7-A3A4-08271225C8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80C6FE6-7DE4-40C7-A3A4-08271225C8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80C6FE6-7DE4-40C7-A3A4-08271225C8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F34F162-BBFB-4263-9568-094DB0DD9490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F34F162-BBFB-4263-9568-094DB0DD9490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F34F162-BBFB-4263-9568-094DB0DD9490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F34F162-BBFB-4263-9568-094DB0DD9490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383D5D1C-6290-400B-88CB-3A76EDA6E9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D5D1C-6290-400B-88CB-3A76EDA6E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D5D1C-6290-400B-88CB-3A76EDA6E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D5D1C-6290-400B-88CB-3A76EDA6E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E87ECA2F-5F85-4943-A882-1D425EDB6EC5}
+	EndGlobalSection
+EndGlobal
